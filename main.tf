@@ -5,7 +5,6 @@ resource "azurerm_private_dns_zone" "dns_zone" {
   tags = {
     Environment = var.environment
     BuildBy     = var.tag_buildby
-    BuildTicket = var.tag_buildticket
     BuildDate   = var.tag_builddate
   }
 }  
